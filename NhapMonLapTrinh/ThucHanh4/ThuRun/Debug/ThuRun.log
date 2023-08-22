@@ -1,0 +1,3 @@
+﻿  ThuRun.cpp
+D:\Code\ThucHanh4\ThuRun\ThuRun.cpp(19,20): warning C4101: 'viTri': unreferenced local variable
+  ThuRun.vcxproj -> D:\Code\ThucHanh4\ThuRun\Debug\ThuRun.exe

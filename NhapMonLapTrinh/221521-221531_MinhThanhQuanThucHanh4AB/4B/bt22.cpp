@@ -1,0 +1,48 @@
+#include <iostream>
+using namespace std;
+int main() {
+	int a[10][10], n;
+	cout << "Nhap ma tran n: ";
+	cin >> n;
+	
+
+	//Nhap ma tran a[n][n]
+	for (short i = 0; i < n; i++)
+		for (short j = 0; j < n; j++) {
+			cout << "a[" << i << "][" << j << "]= ";
+			cin >> a[i][j];
+		}
+
+	//Xuat ma tran a[n][n]
+	cout << "Ma tran vua nhap:\n";
+	for (short i = 0; i < n; i++) {
+		for (short j = 0; j < n; j++)
+			cout << a[i][j] << " ";
+		cout << "\n";
+	}
+
+	//Dem so phan tu ngto tren duong cheo chinh
+	short soPhanTuNguyenTo = 0; //xet aii co phai la so ngtoN
+	short bay;
+	float canBacHai;
+	for (short i = 0; i < n; i++)
+		if (a[i][i] < 2)
+			continue;
+		else if (a[i][i] == 2)
+			soPhanTuNguyenTo++;
+		else if (a[i][i] % 2 != 0) { 
+			bay = 0; //a[i][i] la so nguyen to
+			canBacHai= sqrt(a[i][i]);
+			for(short j=3;j<=canBacHai;j+=2)
+				if (a[i][i] % j == 0) {
+					bay = 1;
+					break;
+				}
+			if (!bay)
+				soPhanTuNguyenTo++;
+
+		}
+
+	//Xuat ket qua
+	cout << "\nSo phan tu nguyen to trong ma tran: " << soPhanTuNguyenTo;
+}

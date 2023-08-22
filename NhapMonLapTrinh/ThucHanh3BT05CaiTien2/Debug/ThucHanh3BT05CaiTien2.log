@@ -1,0 +1,5 @@
+﻿  ThucHanh3BT05CaiTien2.cpp
+D:\Code\ThucHanh3BT05CaiTien2\ThucHanh3BT05CaiTien2.cpp(17,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Code\ThucHanh3BT05CaiTien2\ThucHanh3BT05CaiTien2.cpp(7,9): warning C4101: 'demUocSo': unreferenced local variable
+D:\Code\ThucHanh3BT05CaiTien2\ThucHanh3BT05CaiTien2.cpp(7,19): warning C4101: 'canBacHai': unreferenced local variable
+  ThucHanh3BT05CaiTien2.vcxproj -> D:\Code\ThucHanh3BT05CaiTien2\Debug\ThucHanh3BT05CaiTien2.exe

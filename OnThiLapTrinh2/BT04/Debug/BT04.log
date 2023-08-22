@@ -1,0 +1,4 @@
+﻿  BT04.cpp
+D:\Code\OnThiLapTrinh2\BT04\BT04.cpp(52): warning C4172: returning address of local variable or temporary: chuoiTam
+D:\Code\OnThiLapTrinh2\BT04\BT04.cpp(70): warning C4172: returning address of local variable or temporary: chuoiTam
+  BT04.vcxproj -> D:\Code\OnThiLapTrinh2\BT04\Debug\BT04.exe

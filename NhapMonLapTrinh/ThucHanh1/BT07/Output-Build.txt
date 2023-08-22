@@ -1,0 +1,5 @@
+﻿Build started...
+1>------ Build started: Project: BT07, Configuration: Debug Win32 ------
+1>BT07.cpp
+1>BT07.vcxproj -> D:\Code\BT07\Debug\BT07.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========

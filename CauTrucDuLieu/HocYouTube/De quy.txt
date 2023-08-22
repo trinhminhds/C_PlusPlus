@@ -1,0 +1,63 @@
+//De quy
+//S(n) = 1 + 2 + 3 +...+ n ;
+//n! = n * (n - 1) * (n - 2) *...* 1;
+
+
+//Giai thua
+short gt(short n) {
+    if (n == 0)
+        return 1;
+    else
+        return n * gt(n - 1);
+}
+
+//han che su dung vi chay rat lau
+short fibo(short n) {
+    if (n <= 1)
+        return n;
+    else
+        return fibo(n - 1) + fibo(n - 2);
+}
+
+short nCk(short n, short k) {
+    if (k == 0 || n == k)
+        return 1;
+    else
+        return nCk(n - 1, k) + nCk(n - 1, k - 1);
+}
+
+//uoc chung
+short gcd(short n, short k) {
+    if (k == 0)
+        return 1;
+    else
+        return gcd(k, n % k);
+}
+
+//mu thua luy phan
+short binpow(short n, short k) {
+    if (k == 0)
+        return 1;
+    short x = binpow(n, k / 2);
+    if (k % 2 == 0)
+        return n * x * x;
+    else
+        return x * x;
+}
+
+short count(short n) {
+    if (n < 10)
+        return 1;
+    else
+        return 1 + count(n / 10);
+}
+
+//kiem tra doi xung
+short palin(short a[], short left, short right) {
+    if (left >= right)
+        return 0;
+    if (a[left] != a[right])
+        return 0;
+    else
+        return palin(a, left + 1, right - 1);
+}

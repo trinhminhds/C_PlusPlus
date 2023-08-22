@@ -1,0 +1,3 @@
+﻿  BT04.cpp
+D:\Code\ThucHanh5\BT04\BT04.cpp(55): warning C4715: 'tichNgich': not all control paths return a value
+  BT04.vcxproj -> D:\Code\ThucHanh5\BT04\Debug\BT04.exe

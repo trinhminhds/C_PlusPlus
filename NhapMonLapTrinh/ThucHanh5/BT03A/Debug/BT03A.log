@@ -1,0 +1,4 @@
+﻿  BT03A.cpp
+D:\Code\ThucHanh5\BT03A\BT03A.cpp(9,22): warning C4101: 'kyTu2': unreferenced local variable
+D:\Code\ThucHanh5\BT03A\BT03A.cpp(34): warning C4172: returning address of local variable or temporary: chuoiTam
+  BT03A.vcxproj -> D:\Code\ThucHanh5\BT03A\Debug\BT03A.exe

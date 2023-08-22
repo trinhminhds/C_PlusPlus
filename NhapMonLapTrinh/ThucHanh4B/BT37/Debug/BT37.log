@@ -1,0 +1,4 @@
+﻿  BT37.cpp
+D:\Code\ThucHanh4B\BT37\BT37.cpp(30,25): warning C4552: '!=': result of expression not used
+D:\Code\ThucHanh4B\BT37\BT37.cpp(34,25): warning C4552: '!=': result of expression not used
+  BT37.vcxproj -> D:\Code\ThucHanh4B\BT37\Debug\BT37.exe

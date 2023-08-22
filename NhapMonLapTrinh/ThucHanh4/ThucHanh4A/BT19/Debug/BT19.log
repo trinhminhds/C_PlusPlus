@@ -1,0 +1,3 @@
+﻿  BT19.cpp
+D:\Code\ThucHanh4\ThucHanh4A\BT19\BT19.cpp(49,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  BT19.vcxproj -> D:\Code\ThucHanh4\ThucHanh4A\BT19\Debug\BT19.exe

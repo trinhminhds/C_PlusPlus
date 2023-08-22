@@ -1,0 +1,44 @@
+﻿  BT35.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\xutility(1208,54): error C2794: 'iterator_category': is not a member of any direct or indirect base class of 'std::iterator_traits<_Iter>'
+          with
+          [
+              _Iter=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\xutility(1229): message : see reference to alias template instantiation 'std::_Iter_cat_t<int>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\xutility(1421): message : see reference to variable template 'const bool _Is_random_iter_v<int>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\algorithm(2628): message : see reference to function template instantiation 'auto std::_Idl_distance<_FwdIt1,_FwdIt1>(const _Iter &,const _Iter &)' being compiled
+          with
+          [
+              _FwdIt1=int,
+              _Iter=int
+          ]
+D:\Code\ThucHanh4B\BT35\BT35.cpp(53): message : see reference to function template instantiation '_FwdIt2 std::swap_ranges<int,int>(const _FwdIt1,const _FwdIt1,_FwdIt2)' being compiled
+          with
+          [
+              _FwdIt2=int,
+              _FwdIt1=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\xutility(1229,13): error C2938: 'std::_Iter_cat_t' : Failed to specialize alias template
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\xutility(1229): error C2062: type 'unknown-type' unexpected
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\xutility(1421,1): error C3376: 'std::_Is_random_iter_v': only static data member templates are allowed
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\xutility(1421,43): error C2059: syntax error: ')'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\xutility(1421,1): error C2143: syntax error: missing ';' before '{'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\xutility(1201,55): error C2794: 'difference_type': is not a member of any direct or indirect base class of 'std::iterator_traits<_Iter>'
+          with
+          [
+              _Iter=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\xutility(1422): message : see reference to alias template instantiation 'std::_Iter_diff_t<int>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\xutility(1422,1): error C2938: 'std::_Iter_diff_t' : Failed to specialize alias template
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\xutility(1423,1): error C2181: illegal else without matching if
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\xutility(1424,1): error C3487: 'std::_Distance_unknown': all return expressions must deduce to the same type: previously it was '_Iter'
+          with
+          [
+              _Iter=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\xutility(1424,1): error C2440: 'return': cannot convert from 'std::_Distance_unknown' to '_Iter'
+          with
+          [
+              _Iter=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\xutility(1424,33): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called

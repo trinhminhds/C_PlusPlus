@@ -1,0 +1,6 @@
+﻿  CacThuatSapXepTruong.cpp
+D:\Code\CauTrucDuLieu\CacThuatSapXepTruong\CacThuatSapXepTruong.cpp(150,11): warning C4018: '<': signed/unsigned mismatch
+D:\Code\CauTrucDuLieu\CacThuatSapXepTruong\CacThuatSapXepTruong.cpp(150,27): warning C4018: '<': signed/unsigned mismatch
+D:\Code\CauTrucDuLieu\CacThuatSapXepTruong\CacThuatSapXepTruong.cpp(161,12): warning C4018: '<': signed/unsigned mismatch
+D:\Code\CauTrucDuLieu\CacThuatSapXepTruong\CacThuatSapXepTruong.cpp(167,12): warning C4018: '<': signed/unsigned mismatch
+  CacThuatSapXepTruong.vcxproj -> D:\Code\CauTrucDuLieu\CacThuatSapXepTruong\Debug\CacThuatSapXepTruong.exe
